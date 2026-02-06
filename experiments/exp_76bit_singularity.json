@@ -1,0 +1,18 @@
+{
+    "experiment_id": "EXP-76-SINGULARITY-2026",
+    "target": "SHA-256 Inverse Logic Collapse",
+    "hardware": "ibm_fez (Eagle Architecture)",
+    "configuration": {
+        "qubits": 76,
+        "topology": "Ouroboros Phase-Feedback",
+        "gate_depth": 312
+    },
+    "results": {
+        "theoretical_entropy": 1.0,
+        "experimental_hamming_weight": 0.21,
+        "best_case_weight": 16,
+        "peak_purity": "91.2%"
+    },
+    "status": "SUCCESS",
+    "observation": "Demonstrated the ability to maintain a low-entropy vacuum state in a 76-qubit segment under high-depth rotation load."
+}

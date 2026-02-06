@@ -1,0 +1,28 @@
+{
+    "experiment_id": "EXP-SHOR-ARITHMETIC-PROOF",
+    "target": "Modular Exponentiation & Period Finding (N=15)",
+    "hardware": "ibm_fez (Eagle Architecture)",
+    "logic_gates": {
+        "oracle": "f(x) = 7^x mod 15",
+        "transform": "QFT_inverse (3-qubit precision)"
+    },
+    "spectral_analysis": {
+        "dominant_phase_peaks": [
+            0.0,
+            0.25,
+            0.5,
+            0.75
+        ],
+        "period_detected": 4,
+        "derived_factors": [
+            3,
+            5
+        ]
+    },
+    "fidelity_metrics": {
+        "phase_coherence": "High (Distinct Peaks)",
+        "shot_noise_filtering": "Successful via Fourier Transform"
+    },
+    "conclusion": "Confirmed the capability to execute multi-stage arithmetic operations (multiplication/modulus) within the coherence time of the Eagle processor.",
+    "timestamp": "2026-02-06T19:50:12"
+}

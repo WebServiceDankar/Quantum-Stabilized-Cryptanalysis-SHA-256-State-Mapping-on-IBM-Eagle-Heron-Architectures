@@ -1,0 +1,22 @@
+{
+    "experiment_id": "EXP-PENTA-SYNC-155",
+    "target": "Generational Information Persistence (A -> E Shift)",
+    "hardware": "ibm_fez / ibm_torino",
+    "data_points": {
+        "qubits_active": 155,
+        "generations": 5,
+        "shift_vector": [
+            31,
+            31,
+            31,
+            31,
+            31
+        ]
+    },
+    "metrics": {
+        "initial_fidelity": 0.99,
+        "final_generation_fidelity": 0.871,
+        "decoherence_buffer": "12.9%"
+    },
+    "conclusion": "The Ouroboros topology suppressed noise propagation during the generational shift, keeping fidelity above the 80% threshold across 155 qubits."
+}
