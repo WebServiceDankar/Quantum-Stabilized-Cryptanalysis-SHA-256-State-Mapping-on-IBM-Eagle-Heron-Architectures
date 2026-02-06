@@ -1,9 +1,25 @@
 # Quantum-Stabilized Cryptanalysis: The Ouroboros Topology Experiment
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Hardware: IBM Quantum](https://img.shields.io/badge/Hardware-IBM_Eagle_%2F_Heron-blue)](https://quantum.ibm.com)
+[![Status: Experimental Proof](https://img.shields.io/badge/Status-Validated-green)](https://github.com/WebServiceDankar/Quantum-Stabilized-Cryptanalysis-SHA-256-State-Mapping-on-IBM-Eagle-Heron-Architectures)
+
 ## Executive Summary
 This project documents a high-scale experimental research on **Quantum State Stabilization** and **Noise Mitigation** within the NISQ (Noisy Intermediate-Scale Quantum) era.
 
-Utilizing IBM’s **Eagle (156-qubit)** and **Heron (133-qubit)** architectures, I developed a novel phase-feedback mechanism—the **Ouroboros Topology**—to explore low-entropy states in the SHA-256 hashing algorithm. This research demonstrates the feasibility of maintaining logical coherence across 155 qubits with over 90% purity, a critical step toward quantum-assisted cryptanalysis.
+Utilizing IBM’s **Eagle (156-qubit)** and **Heron (133-qubit)** architectures, I developed a novel phase-feedback mechanism—the **Ouroboros Topology**—to explore low-entropy states in the SHA-256 hashing algorithm. This research demonstrates the feasibility of maintaining logical coherence across 155 qubits with over **90% purity**, a critical step toward quantum-assisted cryptanalysis.
+
+---
+
+## 📊 Experimental Visualization
+
+### Fidelity Metrics (SHA-256 Logic Gates)
+Performance of the quantum logic gates on the IBM Eagle processor (Depth ~306).
+![SHA-256 Fidelity](analysis/sha256_fidelity_metrics.png)
+
+### Vacuum Stability (Heron Processor)
+Maintenance of the 133-qubit vacuum state under Grover Amplification load.
+![Vacuum Stability](analysis/heron_vacuum_stability.png)
 
 ---
 
@@ -42,13 +58,32 @@ Discovery of the **Shield-to-Vacuum Ratio (1:1)**: Empirical evidence showing th
 ---
 
 ## 📂 Repository Structure
-- `/src`: Core implementation of Ouroboros, Trinity Shift, and Pentagram circuits.
-- `/experiments`: Raw JSON output from IBM Quantum jobs proving hardware execution.
-- `/logic`: Mapping of SHA-256 Boolean functions (XOR, ROTR, AND) into quantum gates.
+
+- **`/src`**: Core Python implementation of the Ouroboros Topology and Vogel Geometry Engine.
+- **`/logic`**: Quantum Gate Library mapping SHA-256 Boolean functions (Sigma, Ch, Maj) to Toffoli/CX gates.
+- **`/experiments`**: Raw JSON proofs from IBM Quantum jobs showing experimental validation derived from real hardware execution.
+- **`/analysis`**: Visualization scripts and generated fidelity graphs.
+
+---
+
+## 📜 Citation
+
+If you use this topography, dataset, or code in your research, please cite it as:
+
+```bibtex
+@software{Palma_Quantum_Stabilized_Cryptanalysis_2026,
+  author = {Palma, Daniel},
+  month = {2},
+  title = {{Quantum Stabilized Cryptanalysis: The Ouroboros Topology Experiment}},
+  url = {https://github.com/WebServiceDankar/Quantum-Stabilized-Cryptanalysis-SHA-256-State-Mapping-on-IBM-Eagle-Heron-Architectures},
+  year = {2026}
+}
+```
 
 ---
 
 ## 💡 About the Researcher
-Independent Researcher focused on the intersection of **Topological Quantum Computing** and **Criptanalysis**. Self-taught expertise in NISQ hardware optimization, error mitigation, and Python-based quantum algorithm development.
+Independent Researcher focused on the intersection of **Topological Quantum Computing** and **Cryptanalysis**. Self-taught expertise in NISQ hardware optimization, error mitigation, and Python-based quantum algorithm development.
 
-**Contact:** [Daniel A. Palma] - [soareslucia350@gmail.com]
+**Licence:** MIT License.
+**Contact:** Daniel A. Palma - soareslucia350@gmail.com
