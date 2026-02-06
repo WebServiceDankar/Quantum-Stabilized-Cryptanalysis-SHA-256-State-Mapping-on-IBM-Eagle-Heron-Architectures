@@ -86,4 +86,6 @@ If you use this topography, dataset, or code in your research, please cite it as
 Independent Researcher focused on the intersection of **Topological Quantum Computing** and **Cryptanalysis**. Self-taught expertise in NISQ hardware optimization, error mitigation, and Python-based quantum algorithm development.
 
 **Licence:** MIT License.
-**Contact:** Daniel A. Palma - soareslucia350@gmail.com
+**Contact:** Daniel A. Palma  
+📧 soareslucia350@gmail.com  
+🇧🇷 [+55 (35) 98434-7500](https://wa.me/5535984347500) (WhatsApp)
