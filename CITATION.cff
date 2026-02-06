@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this topography or dataset, please cite it as below."
+authors:
+- family-names: "Palma"
+  given-names: "Daniel"
+  email: "soareslucia350@gmail.com"
+title: "Quantum Stabilized Cryptanalysis: The Ouroboros Topology Experiment"
+version: 1.0.0
+date-released: 2026-02-06
+url: "https://github.com/WebServiceDankar/Quantum-Stabilized-Cryptanalysis-SHA-256-State-Mapping-on-IBM-Eagle-Heron-Architectures"
+keywords:
+  - quantum-computing
+  - cryptography
+  - sha-256
+  - ibm-quantum
+  - nisq
+  - error-mitigation
+license: MIT
