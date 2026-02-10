@@ -1,0 +1,9 @@
+{
+  "testnet_block": 4840846,
+  "quantum_nonce_center": 487138954,
+  "final_nonce": 489682325,
+  "final_hash": "000000a5de0d19ccf669229b12762bb40a3d5155b031c5d55744e97e25d28fa4",
+  "zeros_found": 6,
+  "distance_from_quantum": 2543371,
+  "time_seconds": 661.4514119625092
+}

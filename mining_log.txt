@@ -1,0 +1,34 @@
+[START] Testnet Miner Quick Test
+Quantum Center: 487138954
+Radius: +/- 5000000
+Target: 6 zeros
+
+[Progress] 0 tested, best=0 zeros
+[BETTER] Nonce=482138956, Zeros=1, Hash=0a3d11e8aa7528906572b179dd5aa5f9...
+[BETTER] Nonce=482139269, Zeros=2, Hash=00d9c31d60667e2848c53bab95117c3b...
+[BETTER] Nonce=482141077, Zeros=3, Hash=0007fb6552b9d384ea22615f1ae938e8...
+[BETTER] Nonce=482186817, Zeros=4, Hash=00001e282cf4ef3c87b8d95cbf239c20...
+[Progress] 500,000 tested, best=4 zeros
+[Progress] 1,000,000 tested, best=4 zeros
+[BETTER] Nonce=483360364, Zeros=5, Hash=00000aba05ac40b985e8bba5bcc2692d...
+[Progress] 1,500,000 tested, best=5 zeros
+[Progress] 2,000,000 tested, best=5 zeros
+[Progress] 2,500,000 tested, best=5 zeros
+[Progress] 3,000,000 tested, best=5 zeros
+[Progress] 3,500,000 tested, best=5 zeros
+[Progress] 4,000,000 tested, best=5 zeros
+[Progress] 4,500,000 tested, best=5 zeros
+[Progress] 5,000,000 tested, best=5 zeros
+[Progress] 5,500,000 tested, best=5 zeros
+[Progress] 6,000,000 tested, best=5 zeros
+[Progress] 6,500,000 tested, best=5 zeros
+[Progress] 7,000,000 tested, best=5 zeros
+[Progress] 7,500,000 tested, best=5 zeros
+[BETTER] Nonce=489682325, Zeros=6, Hash=000000a5de0d19ccf669229b12762bb4...
+
+[SUCCESS!!!]
+Nonce: 489682325 (hex: 1d2ff595)
+Hash: 000000a5de0d19ccf669229b12762bb40a3d5155b031c5d55744e97e25d28fa4
+Zeros: 6
+Distance: +2543371
+Time: 438.77s

@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "nonce_decimal": 3517538435,
+  "nonce_hex": "d1a96083",
+  "hash": "000000eb0e93f8370bb4574e5ad5ba95215a10a55553f8bee7a9f4cb987c3e89",
+  "zeros": 6,
+  "quantum_center": 3484318699,
+  "distance_from_quantum": 33219736,
+  "time_seconds": 156.2221462726593
+}
