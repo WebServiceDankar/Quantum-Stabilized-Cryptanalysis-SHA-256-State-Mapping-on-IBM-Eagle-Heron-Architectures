@@ -3,10 +3,11 @@ import requests
 import json
 import sys
 import io
+import os
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-API_KEY = "r4D4SVDLjDrcGhcMnQiJsInQeCq18DQ8"
+API_KEY = os.environ.get("IONQ_API_KEY", "COLOQUE_SEU_TOKEN_IONQ_AQUI")
 HEADERS = {
     "Authorization": f"apiKey {API_KEY}",
     "Content-Type": "application/json"

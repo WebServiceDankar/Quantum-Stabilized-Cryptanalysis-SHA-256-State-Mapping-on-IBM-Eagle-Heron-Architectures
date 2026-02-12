@@ -34,7 +34,7 @@ import numpy as np
 # =============================================================================
 # CONFIGURACAO
 # =============================================================================
-IONQ_API_KEY = "r4D4SVDLjDrcGhcMnQiJsInQeCq18DQ8"
+IONQ_API_KEY = os.environ.get("IONQ_API_KEY", "COLOQUE_SEU_TOKEN_IONQ_AQUI")
 IONQ_API_URL = "https://api.ionq.co/v0.3"
 HEADERS = {
     "Authorization": f"apiKey {IONQ_API_KEY}",

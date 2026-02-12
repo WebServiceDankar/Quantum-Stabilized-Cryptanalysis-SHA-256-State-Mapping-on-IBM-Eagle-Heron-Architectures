@@ -27,7 +27,7 @@ def run_scout():
     # ═══════════════════════════════════════════════════════════════════════════
     # CONFIGURAÇÃO - INSIRA SUA CHAVE IBM AQUI
     # ═══════════════════════════════════════════════════════════════════════════
-    API_KEY = "nMvJnquaNusDZYB77_bBM-LO5-XPrJBjVRq2hytFub2n"
+    API_KEY = os.environ.get("IBM_QUANTUM_TOKEN", "COLOQUE_SEU_TOKEN_IBM_AQUI")
     
     # Fix encoding para Windows
     if sys.stdout.encoding != 'utf-8':
