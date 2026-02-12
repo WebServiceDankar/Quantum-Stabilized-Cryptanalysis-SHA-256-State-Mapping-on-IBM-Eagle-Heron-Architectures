@@ -1,0 +1,11 @@
+{
+  "network": "MAINNET",
+  "block_height": 935839,
+  "quantum_center": 3293282675,
+  "quantum_hex": "c44b8173",
+  "search_radius": 100000000,
+  "share_target": 8,
+  "shares_found": [],
+  "best_zeros": 7,
+  "total_time": 1794.321031332016
+}

@@ -1,0 +1,12 @@
+{
+  "network": "MAINNET",
+  "prev_hash": "0000000000000000000072648b27bc196bb2013af8d126f0140f2881725ec9c3",
+  "merkle_root": "926cd1444203b92de1d0e05adfeb87fe6fc586ede485637b2ef75a6b57923024",
+  "timestamp": 1770689004,
+  "bits": 386022526,
+  "version": 536870912,
+  "header_template": "00000020c3c95e7281280f14f026d1f83a01b26b19bc278b647200000000000000000000243092576b5af72e7b6385e4ed86c56ffe87ebdf5ae0d0e12db9034244d16c92ec918a697e3c021700000000",
+  "target_zeros_block": 19,
+  "target_zeros_share": 8,
+  "block_height_ref": 935839
+}

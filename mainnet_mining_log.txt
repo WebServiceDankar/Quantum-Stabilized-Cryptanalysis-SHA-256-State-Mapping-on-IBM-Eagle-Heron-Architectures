@@ -1,0 +1,67 @@
+[START] MAINNET Mining Quick Test
+Network: MAINNET
+Block: #935839
+Quantum Center: 3293282675 (0xc44b8173)
+Radius: +/- 50,000,000
+Target: 8 zeros (Share)
+
+[Progress] 0 tested | best=0 zeros | 0 H/s
+[BETTER] Nonce=3243282680 (0xc15090f8), Zeros=1, Hash=088f20491ad841f87a1725a5839701ea...
+[BETTER] Nonce=3243283102 (0xc150929e), Zeros=2, Hash=00c827579036f14e43f2c892585d0d35...
+[BETTER] Nonce=3243284195 (0xc15096e3), Zeros=3, Hash=000fc19aad1d4da3670d741d9d6335fe...
+[BETTER] Nonce=3243316483 (0xc1511503), Zeros=4, Hash=0000f4ac799c741fe5d6c8c63260b77d...
+[BETTER] Nonce=3243518434 (0xc15429e2), Zeros=5, Hash=0000055cb91dbf276861258202abc211...
+[Progress] 2,000,000 tested | best=5 zeros | 16,293 H/s
+[Progress] 4,000,000 tested | best=5 zeros | 16,411 H/s
+[Progress] 6,000,000 tested | best=5 zeros | 17,475 H/s
+[Progress] 8,000,000 tested | best=5 zeros | 18,635 H/s
+[Progress] 10,000,000 tested | best=5 zeros | 19,979 H/s
+[Progress] 12,000,000 tested | best=5 zeros | 21,109 H/s
+[Progress] 14,000,000 tested | best=5 zeros | 21,951 H/s
+[Progress] 16,000,000 tested | best=5 zeros | 22,756 H/s
+[BETTER] Nonce=3261000055 (0xc25ee977), Zeros=6, Hash=0000002e8e0f13824c5532f4fde076e0...
+[Progress] 18,000,000 tested | best=6 zeros | 23,190 H/s
+[Progress] 20,000,000 tested | best=6 zeros | 23,460 H/s
+[Progress] 22,000,000 tested | best=6 zeros | 23,806 H/s
+[Progress] 24,000,000 tested | best=6 zeros | 24,140 H/s
+[Progress] 26,000,000 tested | best=6 zeros | 24,298 H/s
+[Progress] 28,000,000 tested | best=6 zeros | 24,903 H/s
+[Progress] 30,000,000 tested | best=6 zeros | 25,911 H/s
+[Progress] 32,000,000 tested | best=6 zeros | 26,860 H/s
+[Progress] 34,000,000 tested | best=6 zeros | 27,053 H/s
+[Progress] 36,000,000 tested | best=6 zeros | 27,840 H/s
+[Progress] 38,000,000 tested | best=6 zeros | 28,852 H/s
+[Progress] 40,000,000 tested | best=6 zeros | 29,781 H/s
+[Progress] 42,000,000 tested | best=6 zeros | 30,660 H/s
+[Progress] 44,000,000 tested | best=6 zeros | 31,308 H/s
+[Progress] 46,000,000 tested | best=6 zeros | 31,891 H/s
+[Progress] 48,000,000 tested | best=6 zeros | 32,313 H/s
+[Progress] 50,000,000 tested | best=6 zeros | 32,811 H/s
+[Progress] 52,000,000 tested | best=6 zeros | 33,232 H/s
+[Progress] 54,000,000 tested | best=6 zeros | 33,871 H/s
+[Progress] 56,000,000 tested | best=6 zeros | 34,558 H/s
+[Progress] 58,000,000 tested | best=6 zeros | 35,232 H/s
+[Progress] 60,000,000 tested | best=6 zeros | 35,863 H/s
+[Progress] 62,000,000 tested | best=6 zeros | 36,581 H/s
+[Progress] 64,000,000 tested | best=6 zeros | 37,227 H/s
+[Progress] 66,000,000 tested | best=6 zeros | 37,778 H/s
+[Progress] 68,000,000 tested | best=6 zeros | 38,183 H/s
+[Progress] 70,000,000 tested | best=6 zeros | 38,463 H/s
+[Progress] 72,000,000 tested | best=6 zeros | 38,946 H/s
+[Progress] 74,000,000 tested | best=6 zeros | 39,160 H/s
+[Progress] 76,000,000 tested | best=6 zeros | 39,420 H/s
+[Progress] 78,000,000 tested | best=6 zeros | 39,805 H/s
+[Progress] 80,000,000 tested | best=6 zeros | 40,318 H/s
+[Progress] 82,000,000 tested | best=6 zeros | 40,805 H/s
+[Progress] 84,000,000 tested | best=6 zeros | 41,314 H/s
+[Progress] 86,000,000 tested | best=6 zeros | 41,846 H/s
+[Progress] 88,000,000 tested | best=6 zeros | 42,414 H/s
+[Progress] 90,000,000 tested | best=6 zeros | 43,032 H/s
+[Progress] 92,000,000 tested | best=6 zeros | 43,644 H/s
+[Progress] 94,000,000 tested | best=6 zeros | 44,257 H/s
+[Progress] 96,000,000 tested | best=6 zeros | 44,856 H/s
+[Progress] 98,000,000 tested | best=6 zeros | 45,447 H/s
+
+[COMPLETE] Total Time: 2172.80s
+Best: 6 zeros at nonce 3261000055 (0xc25ee977)
+Hash: 0000002e8e0f13824c5532f4fde076e0df1c6bb28af11a0cc51d7ce7e8a7547b

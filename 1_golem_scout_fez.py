@@ -48,25 +48,42 @@ def run_scout():
     # CONFIGURAÇÃO GEOMÉTRICA (Vogel/Fibonacci + MERKLE ROOT SEED)
     # ═══════════════════════════════════════════════════════════════════════════
     
-    # Ler dados da rede (gerados pelo 0_get_network_data.py)
+    # Ler dados da rede (prioriza MAINNET > TESTNET > Simulacao)
     import json
     import os
     
-    network_file = "results/network_target.json"
-    if os.path.exists(network_file):
-        with open(network_file, "r") as f:
+    mainnet_file = "results/mainnet_target.json"
+    testnet_file = "results/network_target.json"
+    
+    if os.path.exists(mainnet_file):
+        with open(mainnet_file, "r") as f:
             network_data = json.load(f)
         merkle_seed = network_data["merkle_root"]
-        print(f"\n🌐 MODO TESTNET ATIVO")
+        net_label = "MAINNET"
+        target_z = network_data.get("target_zeros_share", 8)
+        print(f"\n[!!!] MODO MAINNET ATIVO - ZONA DE GUERRA")
         print(f"   Merkle Root Seed: {merkle_seed[:16]}...{merkle_seed[-16:]}")
-        print(f"   Target Zeros: {network_data['target_zeros']}")
+        print(f"   Block Diff: {network_data.get('target_zeros_block', '?')} zeros")
+        print(f"   Share Target: {target_z} zeros")
         
-        # Converte Merkle Root em array de floats para modular rotação
+        merkle_bytes = bytes.fromhex(merkle_seed)
+        merkle_floats = np.array([b/255.0 for b in merkle_bytes])
+    elif os.path.exists(testnet_file):
+        with open(testnet_file, "r") as f:
+            network_data = json.load(f)
+        merkle_seed = network_data["merkle_root"]
+        net_label = "TESTNET"
+        target_z = network_data.get("target_zeros", 6)
+        print(f"\n[MODO TESTNET ATIVO]")
+        print(f"   Merkle Root Seed: {merkle_seed[:16]}...{merkle_seed[-16:]}")
+        print(f"   Target Zeros: {target_z}")
+        
         merkle_bytes = bytes.fromhex(merkle_seed)
         merkle_floats = np.array([b/255.0 for b in merkle_bytes])
     else:
-        print(f"\n⚠️  MODO SIMULAÇÃO (sem dados da rede)")
-        merkle_floats = np.random.rand(32)  # Fallback
+        print(f"\n[MODO SIMULACAO] (sem dados da rede)")
+        merkle_floats = np.random.rand(32)
+        net_label = "SIMULACAO"
 
     num_qubits = 155  # 5 segmentos de 31 bits
     step = 31
