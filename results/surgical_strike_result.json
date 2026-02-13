@@ -1,0 +1,14 @@
+{
+  "operation": "SURGICAL_STRIKE",
+  "block_height": 935839,
+  "quantum_sector": {
+    "hex": "0a7",
+    "bits": "0010100111",
+    "pct": 0.3906
+  },
+  "best_zeros": 6,
+  "best_nonce": "0x2c03ea30",
+  "best_hash": "000000b6d72bd35fcd9bca07216bc0ea8456ee82382f0efa396a1b73c1391076",
+  "shares": [],
+  "total_time": 1810.0235171318054
+}

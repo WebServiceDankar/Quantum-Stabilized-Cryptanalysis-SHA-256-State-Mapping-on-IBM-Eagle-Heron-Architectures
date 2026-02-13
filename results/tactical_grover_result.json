@@ -1,0 +1,64 @@
+{
+  "backend": "ibm_torino",
+  "mode": "TACTICAL GROVER (Sub-Space Sector Search)",
+  "job_id": "d66jb18qbmes739e8ve0",
+  "pepita_input": "0x5098501644a202409021822100690d580142480",
+  "target_sector": "1010000100",
+  "search_qubits": 10,
+  "grover_iterations": 12,
+  "total_shots": 8192,
+  "dd_sequence": "XY4",
+  "winner_sector": "0010100111",
+  "winner_hex": "0a7",
+  "winner_pct": 0.3906,
+  "amplification": 4.0,
+  "top_sectors": [
+    {
+      "sector_bits": "0010100111",
+      "sector_int": 167,
+      "sector_hex": "0a7",
+      "count": 32,
+      "pct": 0.3906,
+      "nonce_range_start": 700448768,
+      "nonce_range_end": 704643071
+    },
+    {
+      "sector_bits": "0010100100",
+      "sector_int": 164,
+      "sector_hex": "0a4",
+      "count": 27,
+      "pct": 0.3296,
+      "nonce_range_start": 687865856,
+      "nonce_range_end": 692060159
+    },
+    {
+      "sector_bits": "0010110110",
+      "sector_int": 182,
+      "sector_hex": "0b6",
+      "count": 26,
+      "pct": 0.3174,
+      "nonce_range_start": 763363328,
+      "nonce_range_end": 767557631
+    },
+    {
+      "sector_bits": "0001100111",
+      "sector_int": 103,
+      "sector_hex": "067",
+      "count": 25,
+      "pct": 0.3052,
+      "nonce_range_start": 432013312,
+      "nonce_range_end": 436207615
+    },
+    {
+      "sector_bits": "1110111110",
+      "sector_int": 958,
+      "sector_hex": "3be",
+      "count": 25,
+      "pct": 0.3052,
+      "nonce_range_start": 4018143232,
+      "nonce_range_end": 4022337535
+    }
+  ],
+  "nonce_decimal": 700448768,
+  "nonce_hex": "29c00000"
+}

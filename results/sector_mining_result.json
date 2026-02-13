@@ -1,0 +1,12 @@
+{
+  "network": "MAINNET",
+  "block_height": 935839,
+  "share_target": 7,
+  "sectors_swept": 5,
+  "total_nonces": 20971520,
+  "shares_found": [],
+  "best_zeros": 6,
+  "best_nonce": "2931d960",
+  "best_hash": "000000f2848f92f4911754f4cfe260a227f8ace4611f644904033c6d11c5693f",
+  "total_time": 175.31011772155762
+}

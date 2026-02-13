@@ -1,0 +1,43 @@
+{
+  "backend": "ibm_torino",
+  "mode": "STABILIZED (DD + TREX + 3x Grover)",
+  "job_id": "d66j82lbujdc73cuqtqg",
+  "pepita_input": "0x5098501644a202409021822100690d580142480",
+  "nonce_hex": "46fcc9a3",
+  "nonce_decimal": 1190971811,
+  "nonce_binary": "01000110111111001100100110100011",
+  "frequency": 1,
+  "total_shots": 4096,
+  "probability_pct": 0.0244140625,
+  "grover_iterations": 3,
+  "dd_sequence": "XY4",
+  "resilience_level": 1,
+  "circuit_depth": 24,
+  "top_5": [
+    {
+      "nonce_hex": "46fcc9a3",
+      "count": 1,
+      "pct": 0.0244
+    },
+    {
+      "nonce_hex": "5eb3b35d",
+      "count": 1,
+      "pct": 0.0244
+    },
+    {
+      "nonce_hex": "d60edc70",
+      "count": 1,
+      "pct": 0.0244
+    },
+    {
+      "nonce_hex": "bf687fa7",
+      "count": 1,
+      "pct": 0.0244
+    },
+    {
+      "nonce_hex": "5e064dc9",
+      "count": 1,
+      "pct": 0.0244
+    }
+  ]
+}
