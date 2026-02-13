@@ -1,21 +1,15 @@
-# Environment files (API keys!)
-.env
-*.env
-
 # Python
+*.py
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
+.env
+.venv
+venv/
 
-# IDE
-.vscode/
-.idea/
-
-# OS
-Thumbs.db
+# Logs
+*.log
+results/
 .DS_Store
 
-# Logs (optional - keep results/)
-mainnet_mining_log.txt
+# Keep README
+!README.md
