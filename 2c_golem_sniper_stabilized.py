@@ -33,7 +33,11 @@ def fire_stabilized_sniper(pepita_hex):
     # =========================================================================
     # IBM QUANTUM CONNECTION
     # =========================================================================
-    API_KEY = "nMvJnquaNusDZYB77_bBM-LO5-XPrJBjVRq2hytFub2n"
+    import os
+API_KEY = os.environ.get("IBM_QUANTUM_TOKEN")
+if not API_KEY:
+    print("⚠️ AVISO: Configure IBM_QUANTUM_TOKEN no ambiente.")
+    API_KEY = ""
     
     try:
         service = QiskitRuntimeService(token=API_KEY)
