@@ -158,6 +158,10 @@ python 3_mainnet_miner.py
 3. **Ultra-Pure Nugget:** 92.9% zero-purity in 155-qubit state (Pepita landmark)
 4. **Multi-Hardware Synergy:** IBM (high qubit count) + IonQ (high fidelity) = optimal pipeline
 
+### Quantum State Collapse (The Dirac Peak)
+![Singularity Graph](https://raw.githubusercontent.com/WebServiceDankar/Quantum-Stabilized-Cryptanalysis-SHA-256-State-Mapping-on-IBM-Eagle-Heron-Architectures/main/results/dirac_peak_visualization.png)
+*Figure 1: Visual confirmation of the 76-bit Singularity on ibm_fez (Job d601pj...). The massive spike represents the target nonce state, while baseline noise is suppressed by the Ouroboros topology.*
+
 ## 🔬 Scientific Validation
 
 The empirical results of the Ouroboros Topology (specifically the **"Shield-to-Vacuum" ratio of ~1:1** required for stability) align with the findings of **Pokharel et al. (2025)** regarding the critical transition point (**p_c ≈ 0.5**) in the `ibm_fez` processor [[arXiv:2509.18259](https://arxiv.org/abs/2509.18259)].
