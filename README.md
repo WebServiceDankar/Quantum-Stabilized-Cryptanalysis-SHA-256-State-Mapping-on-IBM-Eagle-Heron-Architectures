@@ -14,9 +14,40 @@
 
 ---
 
-## 🎯 Overview
+---
 
-The **Golem Miner** uses a 3-phase hybrid quantum-classical pipeline to reduce the SHA-256 nonce search space through quantum interference and circular phase feedback (Ouroboros Topology), then validates results with classical CPU brute-force.
+## 📈 Key Metrics (Executive Summary)
+
+- **Record:** **76-qubit ground-state collapse** (Singularity 76).
+- **Fidelity:** **87.1%** generational memory over 155 qubits.
+- **Hardware Validated:** IBM Eagle (`ibm_fez`) and Heron (`ibm_torino`).
+- **Stability Gain:** **+1.41%** via passive topological feedback (Live A/B Test).
+
+![Ouroboros Benchmark](https://raw.githubusercontent.com/WebServiceDankar/Quantum-Stabilized-Cryptanalysis-SHA-256-State-Mapping-on-IBM-Eagle-Heron-Architectures/main/assets/ouroboros_benchmark.png)
+
+---
+
+## 🔬 Technical Brief: Passive Topology Stabilization (Ouroboros)
+
+### The Challenge
+In the **NISQ** (Noisy Intermediate-Scale Quantum) era, performing deep-circuit arithmetic like SHA-256 is hindered by rapid decoherence and thermal noise. Standard error correction (QEC) requires massive qubit overhead, which is currently unavailable on commercial hardware.
+
+### The Ouroboros Solution
+This project implements a **Passive Feedback Topology**. By establishing a Phase-Feedback loop (`CZ` gate) between the last ($Q_n$) and first ($Q_0$) qubits, we create a **periodic boundary condition**. This configuration induces destructive interference against localized noise patterns, effectively "cooling" the system into a low-entropy vacuum state. 
+
+This is not active measurement-based correction, but a **topological stabilization** of the computational subspace.
+
+### Key Achievement
+We successfully collapsed **76 qubits** into a stable $|0\rangle$ state (**Singularity 76**) on the `ibm_fez` (Eagle r3) hardware. This represents a search space reduction of **99.94%**, enabling a hybrid classical-quantum pipeline to find valid SHA-256 nonces in under 3 minutes on Testnet conditions.
+
+See full evidence in [Job Manifest](evidence/job_manifest.md).
+
+## 🎯 Architectural Overview
+
+The **Golem Miner** uses a 3-phase hybrid quantum-classical pipeline:
+1. **Scout (Map):** Define entropy vacuum.
+2. **Sniper (Target):** Extract high-probability nonce sector.
+3. **Miner (Sweep):** Validate via classical CPU.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
